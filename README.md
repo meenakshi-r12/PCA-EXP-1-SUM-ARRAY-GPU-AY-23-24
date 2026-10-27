@@ -811,4 +811,4 @@ Arrays match.
 
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, the implementation of sum of arrays on both Host (CPU) and Device (GPU) using NVCC CUDA with randomly generated numbers was successfully executed. The results produced by the GPU matched with the CPU results successfully.Among the four executions, the configuration using 512 threads per block and 32768 blocks provided the best optimized time efficiency, as it achieved the minimum execution time compared to the other configurations.
