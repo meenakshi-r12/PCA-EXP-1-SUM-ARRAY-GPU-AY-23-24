@@ -290,7 +290,7 @@ int main(int argc, char **argv)
 ```
 
 ## OUTPUT:
-
+```
 /tmp/tmp3gb75d42/ef2825dc-a2ef-4308-8d71-ebe87d6ecc95/cuda_exec.out Starting...
 Using Device 0: Tesla T4
 Vector size 16777216
@@ -298,7 +298,34 @@ initialData Time elapsed 0.681352 sec
 sumArraysOnHost Time elapsed 0.052150 sec
 sumArraysOnGPU <<<  32768, 512  >>>  Time elapsed 0.001534 sec
 Arrays match.
-
+```
+```
+/tmp/tmp3gb75d42/80edf1c7-8768-4371-9c97-40a756852a04/cuda_exec.out Starting...
+Using Device 0: Tesla T4
+Vector size 16777216
+initialData Time elapsed 0.679843 sec
+sumArraysOnHost Time elapsed 0.053738 sec
+sumArraysOnGPU <<<  16401, 1023  >>>  Time elapsed 0.000985 sec
+Arrays match.
+```
+```
+/tmp/tmp3gb75d42/d36bcd15-0af1-44d0-9475-4368e1952053/cuda_exec.out Starting...
+Using Device 0: Tesla T4
+Vector size 16777216
+initialData Time elapsed 0.679592 sec
+sumArraysOnHost Time elapsed 0.052214 sec
+sumArraysOnGPU <<<  16384, 1024  >>>  Time elapsed 0.000929 sec
+Arrays match.
+```
+```
+/tmp/tmp3gb75d42/f40aeee8-6b2a-431d-b87f-305cdb73557f/cuda_exec.out Starting...
+Using Device 0: Tesla T4
+Vector size 16777216
+initialData Time elapsed 0.670110 sec
+sumArraysOnHost Time elapsed 0.058234 sec
+sumArraysOnGPU <<<  65536, 256  >>>  Time elapsed 0.000922 sec
+Arrays match.
+```
 
 
 
